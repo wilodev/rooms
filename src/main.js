@@ -3,7 +3,7 @@ import firebase from 'firebase';
 import App from './App.vue';
 import router from './router';
 import store from './store';
-import config from './.env';
+import config from './.env.local';
 
 Vue.config.productionTip = false;
 // Initialize Firebase
